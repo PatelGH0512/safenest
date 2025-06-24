@@ -9,7 +9,9 @@ const HeaderBox = ({
       <h1 className="header-box-title">
         {title}
         {type === "greeting" && (
-          <span className="text-bankGradient">&nbsp;{user}</span>
+          <span className="bg-red-500 text-white p-4 rounded-lg">
+            &nbsp;{user}
+          </span>
         )}
       </h1>
       <p className="header-box-subtext">{subtext}</p>
